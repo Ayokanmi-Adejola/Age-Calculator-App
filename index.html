@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main class="card">
+    <form id="age-calculator-form">
+      <div class="form-container">
+        <div class="input-group" id="day-group">
+          <label for="day">Day</label>
+          <input type="number" id="day" name="day" placeholder="DD" min="1" max="31">
+          <p class="error-message" id="day-error"></p>
+        </div>
+
+        <div class="input-group" id="month-group">
+          <label for="month">Month</label>
+          <input type="number" id="month" name="month" placeholder="MM" min="1" max="12">
+          <p class="error-message" id="month-error"></p>
+        </div>
+
+        <div class="input-group" id="year-group">
+          <label for="year">Year</label>
+          <input type="number" id="year" name="year" placeholder="YYYY" min="1900" max="2100">
+          <p class="error-message" id="year-error"></p>
+        </div>
+      </div>
+
+      <div class="divider">
+        <hr>
+        <button type="submit" class="submit-btn">
+          <img src="./assets/images/icon-arrow.svg" alt="Submit">
+        </button>
+        <hr>
+      </div>
+    </form>
+
+    <div class="results">
+      <p class="result"><span id="years">--</span>years</p>
+      <p class="result"><span id="months">--</span>months</p>
+      <p class="result"><span id="days">--</span>days</p>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayokanmi Adejola</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
