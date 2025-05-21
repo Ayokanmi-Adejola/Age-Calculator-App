@@ -42,10 +42,6 @@ Users should be able to:
 - **Animated Results**: The age numbers animate to their final values when the form is submitted.
 - **Accessibility**: The app is built with accessibility in mind, including proper labels and focus states.
 
-### Links
-
-- Live Site URL: [Live Demo](https://ayokanmi-adejola.github.io/Age-Calculator-App/)
-
 
 ## My process
 
@@ -136,6 +132,4 @@ In future projects, I would like to focus on:
 
 ## Author
 
-- Website - [Ayokanmi Adejola](https://ayokanmi-adejola-portfolio.netlify.app/)
 - Frontend Mentor - [@AyokanmiAdejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
-- Twitter - [@AyokanmiAdejola](https://x.com/AyoAdejola100)
